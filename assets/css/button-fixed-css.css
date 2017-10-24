@@ -1,0 +1,22 @@
+.elementor-element.elementor-widget-button-fixed {
+    margin-bottom: 0;
+    position: fixed;
+}
+.elementor-element.elementor-align-fixedleft_fixed {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: 0;
+    transform-origin: top left;
+}
+.elementor-element.elementor-align-fixedright_fixed {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    right: 0;
+    transform-origin: right top;
+}
