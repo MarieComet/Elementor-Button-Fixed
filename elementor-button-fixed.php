@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Elementor Button Fixed
  * Description: Fixed button for Elementor page builder
- * Plugin URI: http://dtbaker.net/web-development/creating-your-own-custom-elementor-widgets/
+ * Plugin URI: https://github.com/MarieComet/Elementor-Button-Fixed/
  * Version: 0.0.1
  * Author: Marie Comet
  * Author URI: https://mariecomet.fr
