@@ -142,7 +142,7 @@ class MC_Button_Fixed extends Widget_Base {
                     ],
                 ],
                 'prefix_class' => 'elementor%s-align-fixed',
-                'default' => '',
+                'default' => 'left_fixed',
             ]
         );
 
