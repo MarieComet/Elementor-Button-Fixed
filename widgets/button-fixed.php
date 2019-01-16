@@ -55,6 +55,39 @@ class MC_Button_Fixed extends Widget_Base {
     }
 
     /**
+     * Retrieve the list of categories the widget belongs to.
+     *
+     * Used to determine where to display the widget in the editor.
+     *
+     * Note that currently Elementor supports only one category.
+     * When multiple categories passed, Elementor uses the first one.
+     *
+     * @since 1.0.0
+     *
+     * @access public
+     *
+     * @return array Widget categories.
+     */
+    public function get_categories() {
+        return [ 'general' ];
+    }
+
+    /**
+     * Retrieve the list of scripts the widget depended on.
+     *
+     * Used to set scripts dependencies required to run the widget.
+     *
+     * @since 1.0.0
+     *
+     * @access public
+     *
+     * @return array Widget scripts dependencies.
+     */
+    public function get_script_depends() {
+        return [ 'button-fixed-js' ];
+    }
+
+    /**
      * Retrieve button sizes.
      *
      * @access public
